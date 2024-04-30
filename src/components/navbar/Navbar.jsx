@@ -9,6 +9,7 @@ const Navbar = () => {
     <ContainerFulid>
       <Container>
         <div>
+          {/* mobile menu */}
           <div className="flex  md:hidden justify-between items-center h-[80px] px-4">
             <div className="flex items-center">
               <div className=" ">
@@ -21,7 +22,9 @@ const Navbar = () => {
                 />
               </div>
               <div className="ml-2">
-                <h2 className="text-[14px] font-bold   text-[#1fa471] ">আল হাদিস</h2>
+                <h2 className="text-[14px] font-bold   text-[#1fa471] ">
+                  আল হাদিস
+                </h2>
               </div>
             </div>
             <div className="    flex items-center justify-center rounded-lg  ">
@@ -96,6 +99,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
+        {/* navbar */}
         <div className="md:flex  hidden justify-between items-center h-[80px] px-4">
           <div className="flex">
             <div className=" ">
@@ -119,7 +123,7 @@ const Navbar = () => {
               <input
                 type="text"
                 placeholder="Search Hadith"
-                className=" border-[#DEE1E5]   border-2 pl-6  rounded-lg focus:outline-0 focus:text-black h-full w-full"
+                className=" border-[#DEE1E5]   border-2 pd-10  rounded-lg focus:outline-0 focus:text-black h-full w-full"
               />
               <svg
                 xmlns="http://www.w3.org/2000/svg"
