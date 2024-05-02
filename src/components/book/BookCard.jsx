@@ -8,7 +8,7 @@ const BookCard = ({h}) => {
       <div>
         <h2 className=" text-[#000] text-[1.05rem]">{h?.title}</h2>
         <p className=" text-[#40404099] text-[.9rem]">
-          সর্বমোট হাদিস - {h?.hadith}
+           {h?.hadith}
         </p>
       </div>
     </div>

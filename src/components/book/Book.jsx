@@ -1,7 +1,7 @@
 "use client";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import { hadithData } from "../../../public/data/data";
+import { hadithData, hadithData2 } from "../../../public/data/data";
 import BookCard from "./BookCard";
 const Book = () => {
   return (
@@ -62,7 +62,7 @@ const Book = () => {
               </svg>
             </div>
             <div className="overflow-y-auto h-[calc(100vh-200px)] mt-5">
-              {hadithData?.map((h) => (
+              {hadithData2?.map((h) => (
                 <BookCard key={h?.hadith} h={h} />
               ))}
             </div>

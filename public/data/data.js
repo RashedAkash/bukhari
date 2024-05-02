@@ -1,114 +1,77 @@
 export const hadithData = [
   {
-   
     title: "সহিহ বুখারী",
-    hadith:
-      "৭৩৫৮",
+    hadith: "সর্বমোট হাদিস ৭৩৫৮",
   },
   {
-   
     title: "সুনানে ইবনে মাজাহ",
-    hadith:
-      "৩৭২৯",
+    hadith: "সর্বমোট হাদিস ৩৭২৯",
   },
   {
-    
     title: "মুয়াত্তা ইমাম মালিক",
-    hadith:
-      "৩৩৭৭",
+    hadith: "সর্বমোট হাদিস ৩৩৭৭",
   },
   {
-    
     title: "রিয়াদুস সলেহিন",
-    hadith:
-      "1234",
+    hadith: "সর্বমোট হাদিস ১২৩৪",
   },
   {
-   
     title: "আদাবুল মুফরাদ",
-    hadith:
-      "২২৮২",
+    hadith: "সর্বমোট হাদিস ২২৮২",
   },
   {
-   
     title: "শামায়েলে তিরমিযি",
-    hadith:
-      "৩৮২৭",
+    hadith: "সর্বমোট হাদিস ৩৮২৭",
   },
   {
-    
     title: "সহিহ ফাযায়েলে আমল",
-    hadith:
-      "১৭২৯",
+    hadith: "সর্বমোট হাদিস ১৭২৯",
   },
   {
-    
     title: "সহিহ মুসলিম",
-    hadith:
-      "৩২৮৮",
+    hadith: "সর্বমোট হাদিস ৩২৮৮",
   },
-  
 ];
 export const hadithData2 = [
   {
     image: "https://example.com/image1.jpg",
-    title: "Hadith 1",
-    hadith:
-      "The Prophet Muhammad (peace be upon him) said: 'Kindness is a mark of faith, and whoever is not kind has no faith.'",
+    title: "ওহীর সূচনা অধ্যায়",
+    hadith: "হাদিসের রেঞ্জ: ১ - ৭",
   },
   {
     image: "https://example.com/image2.jpg",
-    title: "Hadith 2",
-    hadith:
-      "The Prophet Muhammad (peace be upon him) said: 'The best of you are those who are best to their families.'",
+    title: "ঈমান",
+    hadith: "হাদিসের রেঞ্জ: ৮ - ৫৮",
   },
   {
     image: "https://example.com/image3.jpg",
-    title: "Hadith 3",
-    hadith:
-      "The Prophet Muhammad (peace be upon him) said: 'The strong person is not the one who can wrestle others down; the strong person is the one who can control himself when he is angry.'",
+    title: "ইলম",
+    hadith: "হাদিসের রেঞ্জ: ৫৯ - ১৩৪",
   },
   {
     image: "https://example.com/image4.jpg",
-    title: "Hadith 4",
-    hadith:
-      "The Prophet Muhammad (peace be upon him) said: 'None of you truly believes until he loves for his brother what he loves for himself.'",
+    title: "ওজু",
+    hadith: "হাদিসের রেঞ্জ: ১৩৫ - ২৪৭",
   },
   {
     image: "https://example.com/image5.jpg",
-    title: "Hadith 5",
-    hadith:
-      "The Prophet Muhammad (peace be upon him) said: 'A believer does not taunt, curse, abuse or talk indecently.'",
+    title: "গোসল",
+    hadith: "হাদিসের রেঞ্জ: ২৪৮ - ২৯৩",
   },
   {
     image: "https://example.com/image6.jpg",
-    title: "Hadith 6",
-    hadith:
-      "The Prophet Muhammad (peace be upon him) said: 'The best charity is that given in Ramadan.'",
+    title: "হায়েজ",
+    hadith: "হাদিসের রেঞ্জ: ২৯৪ - ৩৪৮",
   },
   {
     image: "https://example.com/image7.jpg",
-    title: "Hadith 7",
-    hadith:
-      "The Prophet Muhammad (peace be upon him) said: 'The strong person is not the one who overcomes the people by his strength, but the strong person is the one who controls himself while in anger.'",
+    title: "সালাত",
+    hadith: "হাদিসের রেঞ্জ: ৩৪৯ - ৫২০",
   },
   {
     image: "https://example.com/image8.jpg",
-    title: "Hadith 8",
-    hadith:
-      "The Prophet Muhammad (peace be upon him) said: 'The believer who has the most perfect faith is the one whose character is the best, and the best among you are those who are the best to their wives.'",
-  },
-  {
-    image: "https://example.com/image9.jpg",
-    title: "Hadith 9",
-    hadith:
-      "The Prophet Muhammad (peace be upon him) said: 'Do not belittle any good deed, even meeting your brother with a cheerful face.'",
-  },
-  {
-    image: "https://example.com/image10.jpg",
-    title: "Hadith 10",
-    hadith:
-      "The Prophet Muhammad (peace be upon him) said: 'The similitude of believers in regard to mutual love, affection, and fellow-feeling is that of one body; when any limb of it aches, the whole body aches, because of sleeplessness and fever.'",
+    title: "আযান",
+    hadith: "হাদিসের রেঞ্জ: ৫২১ - ৬০২",
   },
 ];
 
