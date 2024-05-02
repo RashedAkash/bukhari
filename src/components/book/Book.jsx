@@ -5,7 +5,7 @@ import { hadithData, hadithData2 } from "../../../public/data/data";
 import BookCard from "./BookCard";
 const Book = () => {
   return (
-    <div className="bg-white rounded-lg w-[350px] ">
+    <div className="bg-white rounded-lg w-[350px] shadow-sm">
       <Tabs>
         <TabList>
           <Tab>বই</Tab>
