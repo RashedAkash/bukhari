@@ -6,7 +6,7 @@ import SubjectCard from "./SubjectCard";
 
 const Subject = () => {
   return (
-    <section>
+    <section className="overflow-y-auto h-[100vh]">
       <div
         className="h-14 px-5 py-4 gap-1 flex w-full items-center 
     bg-[#FAFBFB] dark:bg-hadith-dark-card rounded-t-xl text-[#667085] 
@@ -70,9 +70,9 @@ const Subject = () => {
         </div>
       </div>
       <div>
-        {
-          hadithDetailsData?.map(d=> <SubjectCard key={d.number} d={d} />)
-        }
+        {hadithDetailsData?.map((d) => (
+          <SubjectCard key={d.number} d={d} />
+        ))}
       </div>
     </section>
   );

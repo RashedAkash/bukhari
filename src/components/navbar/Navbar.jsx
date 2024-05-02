@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <ContainerFulid>
       <Container>
-        <div className="">
+        <div className=" ">
           {/* mobile menu */}
           <div className="flex  md:hidden justify-between items-center h-[80px] px-4">
             <div className="flex items-center">
