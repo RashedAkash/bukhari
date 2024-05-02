@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
             <div className="col-span-1">
               <Sidebar />
             </div>
-            <div className="col-span-11">{children}</div>
+            <div className=" col-span-12 lg:col-span-11">{children}</div>
           </div>
         </div>
       </body>

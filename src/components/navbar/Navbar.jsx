@@ -46,7 +46,7 @@ const Navbar = () => {
                 </svg>
               </div>
               <div
-                className=" w-10 h-10 bg-[#207759]
+                className=" w-10 h-10 bg-[#2b9e76]
             flex items-center justify-center rounded-lg ml-6 "
               >
                 <svg
@@ -139,7 +139,7 @@ const Navbar = () => {
               </svg>
             </div>
             <div
-              className=" w-10 h-10 bg-[#207759]
+              className=" w-10 h-10 bg-[#2b9e76]
             flex items-center justify-center rounded-lg  "
             >
               <svg

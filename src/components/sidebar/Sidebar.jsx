@@ -12,7 +12,7 @@ import { usePathname } from "next/navigation";
 const Sidebar = () => {
    const pathname = usePathname();
   return (
-    <nav className="md:px-4 bg-white fixed bottom-0 md:absolute md:bottom-12 flex justify-evenly md:flex-col items-center md:justify-center md:space-y-7 ">
+    <nav className="md:px-4 min-w-full lg:min-w-0 bg-white fixed bottom-0 lg:absolute lg:bottom-12 flex justify-evenly lg:flex-col items-center lg:justify-center lg:space-y-7  ">
       <Link
         className="p-4 hover:bg-[#f8f8f9] hover:rounded-lg transition-all duration-300 "
         href=""
@@ -54,7 +54,7 @@ const Sidebar = () => {
       >
         <FaTelegramPlane className="w-[30px] h-[30px] hover:text-[#2b9e76] transition-all duration-300 " />
       </Link>
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
         <div className="w-[64px]   h-[48px] flex items-center justify-center">
           <FaHandHoldingHeart className=" mt-16 text-white bg-[#2b9e76] w-full h-full p-3 rounded-lg " />
         </div>

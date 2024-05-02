@@ -78,7 +78,7 @@ const SubjectCard = ({ d }) => {
           </p>
           <p className="text-[#000]  text-[17px]  ">{d?.hadith}</p>
         </div>
-        <div className="mt-10 flex items-center justify-between">
+        <div className="mt-10 md:flex items-center justify-between">
           <div className="flex items-center gap-2 ">
             <p className="text-base text-[#000]">হাদিসের মান :</p>
             <button className="pt-1.5 pb-1 rounded-[.3rem]  text-white px-3 flex items-center justify-center font-medium text-sm bg-[#2b9e76]">
@@ -86,7 +86,7 @@ const SubjectCard = ({ d }) => {
               সহিহ হাদিস{" "}
             </button>
           </div>
-          <div className="flex items-center gap-10">
+          <div className="flex flex-grow mt-5 lg:mt-0 items-center gap-10">
             <Image src="/image/copy.svg" alt="logo" width={24} height={24} />
             <Image
               src="/image/bookmark (1).svg"
