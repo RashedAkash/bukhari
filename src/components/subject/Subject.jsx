@@ -37,12 +37,35 @@ const Subject = () => {
           <h1 className="text-[1.5rem] text-[#000]">صحيح البخاري</h1>
         </div>
       </div>
-     
-        <div class="flex items-center gap-x-4 bg-white dark:bg-hadith-dark-card rounded-xl px-5 py-5 w-full my-4 ">
-          <h1 className=" flex items-center justify-center bg-[#2b9e76] p-4 text-white w-[42.34px] h-10 rounded-xl  font-medium leading-6 ">
-            ১
-          </h1>
-          <p className=" text-xl leading-7  ">ওহীর সূচনা অধ্যায়</p>      
+
+      <div class="flex items-center gap-x-4 bg-white dark:bg-hadith-dark-card rounded-xl px-5 py-5 w-full my-4 ">
+        <h1 className=" flex items-center justify-center bg-[#2b9e76] p-4 text-white w-[42.34px] h-10 rounded-xl  font-medium leading-6 ">
+          ১
+        </h1>
+        <p className=" text-xl leading-7  ">ওহীর সূচনা অধ্যায়</p>
+      </div>
+      <div className="bg-white  my-4 px-5 py-6 rounded-xl ">
+        <div class="flex items-center gap-x-3 ">
+          <div>
+            <Image src="/image/book.svg" alt="img" width={32} height={32} />
+          </div>
+          <div>
+            <h1 class=" flex items-center text-[17px] font-semibold leading-5 ">
+              ১/১. অধ্যায়ঃ
+            </h1>
+          </div>
+        </div>
+        <div>
+          <h2 className=" text-base text-[#000] font-medium pt-4 pb-5 border-b border-[#ECEEF0]">
+            আল্লাহ্‌র রসূল (সাল্লাল্লাহু 'আলাইহি ওয়া সাল্লাম)- এর প্রতি কীভাবে
+            ওয়াহী [১] শুরু হয়েছিল।
+          </h2>
+          <p className=" text-base mt-5  text-[#373737]">
+            এ মর্মে আল্লাহ তা’আলার বাণীঃ “নিশ্চয়ই আমি আপনার প্রতি সেরূপ ওয়াহী
+            প্রেরণ করেছি যেরূপ নূহ ও তাঁর পরবর্তী নবীদের প্রতি ওয়াহী প্রেরণ
+            করেছিলাম”। (সূরা আন-নিসা ৪/১৬৩)
+          </p>
+        </div>
       </div>
     </section>
   );
