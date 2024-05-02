@@ -1,76 +1,48 @@
 export const hadithData = [
   {
-    image: (
-      <svg
-        className="fill-subcat-hover false    "
-        width="56"
-        height="62"
-        viewBox="0 0 56 62"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M22.375 3.11362C25.8558 1.104 30.1442 1.104 33.625 3.11362L49.3378 12.1854C52.8186 14.195 54.9628 17.909 54.9628 21.9282V40.0718C54.9628 44.091 52.8186 47.805 49.3378 49.8146L33.625 58.8864C30.1442 60.896 25.8558 60.896 22.375 58.8864L6.66219 49.8146C3.18143 47.805 1.03719 44.091 1.03719 40.0718V21.9282C1.03719 17.909 3.18143 14.195 6.66219 12.1854L22.375 3.11362Z"
-          stroke-width="1.5"
-        />
-      </svg>
-    ),
+   
     title: "সহিহ বুখারী",
     hadith:
       "৭৩৫৮",
   },
   {
-    image: (
-      <svg
-        className="fill-subcat-hover false    "
-        width="56"
-        height="62"
-        viewBox="0 0 56 62"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M22.375 3.11362C25.8558 1.104 30.1442 1.104 33.625 3.11362L49.3378 12.1854C52.8186 14.195 54.9628 17.909 54.9628 21.9282V40.0718C54.9628 44.091 52.8186 47.805 49.3378 49.8146L33.625 58.8864C30.1442 60.896 25.8558 60.896 22.375 58.8864L6.66219 49.8146C3.18143 47.805 1.03719 44.091 1.03719 40.0718V21.9282C1.03719 17.909 3.18143 14.195 6.66219 12.1854L22.375 3.11362Z"
-          stroke-width="1.5"
-        />
-      </svg>
-    ),
+   
     title: "সুনানে ইবনে মাজাহ",
     hadith:
       "৩৭২৯",
   },
   {
-    image: "https://example.com/image3.jpg",
+    
     title: "মুয়াত্তা ইমাম মালিক",
     hadith:
       "৩৩৭৭",
   },
   {
-    image: "https://example.com/image4.jpg",
+    
     title: "রিয়াদুস সলেহিন",
     hadith:
-      "The Prophet Muhammad (peace be upon him) said: 'None of you truly believes until he loves for his brother what he loves for himself.'",
+      "1234",
   },
   {
-    image: "https://example.com/image5.jpg",
+   
     title: "আদাবুল মুফরাদ",
     hadith:
       "২২৮২",
   },
   {
-    image: "https://example.com/image6.jpg",
+   
     title: "শামায়েলে তিরমিযি",
     hadith:
       "৩৮২৭",
   },
   {
-    image: "https://example.com/image7.jpg",
+    
     title: "সহিহ ফাযায়েলে আমল",
     hadith:
       "১৭২৯",
   },
   {
-    image: "https://example.com/image8.jpg",
+    
     title: "সহিহ মুসলিম",
     hadith:
       "৩২৮৮",

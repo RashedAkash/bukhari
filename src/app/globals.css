@@ -26,12 +26,19 @@ padding:0 40px;
 .react-tabs__tab {
   
     border-bottom: none;  
-   
+   font-size: 16px;
     list-style: none;
-    padding: 15px 70px !important;
+    padding: 15px 71px !important;
     
 }
 .react-tabs__tab-panel--selected {
     display: block;
-    padding: 0 20px ;
+    padding: 12px 15px ;
+    border-radius: 8px 8px 0 0;
+}
+.custom-shape {
+    width: 40px;
+    height: 40px;
+    background-color: #F2F4F6;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }

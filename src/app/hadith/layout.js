@@ -8,7 +8,7 @@ const layout = ({children}) => {
       <div className="col-span-4 ">
         <Book />
       </div>
-      <div className="col-span-8 ml-5">
+      <div className="col-span-8 ">
         <Subject />
       </div>
     </div>
