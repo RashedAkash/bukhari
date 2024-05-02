@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { FaAngleRight } from "react-icons/fa";
 import { TbBooks } from "react-icons/tb";
+import { hadithDetailsData } from "../../../public/data/data";
+import SubjectCard from "./SubjectCard";
 
 const Subject = () => {
   return (
@@ -66,6 +68,11 @@ const Subject = () => {
             করেছিলাম”। (সূরা আন-নিসা ৪/১৬৩)
           </p>
         </div>
+      </div>
+      <div>
+        {
+          hadithDetailsData?.map(d=> <SubjectCard key={d.number} d={d} />)
+        }
       </div>
     </section>
   );
