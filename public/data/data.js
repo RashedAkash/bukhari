@@ -2,34 +2,42 @@ export const hadithData = [
   {
     title: "সহিহ বুখারী",
     hadith: "সর্বমোট হাদিস ৭৩৫৮",
+    logo: "B",
   },
   {
     title: "সুনানে ইবনে মাজাহ",
     hadith: "সর্বমোট হাদিস ৩৭২৯",
+    logo: "IM",
   },
   {
     title: "মুয়াত্তা ইমাম মালিক",
     hadith: "সর্বমোট হাদিস ৩৩৭৭",
+    logo: "MM",
   },
   {
     title: "রিয়াদুস সলেহিন",
     hadith: "সর্বমোট হাদিস ১২৩৪",
+    logo: "RS",
   },
   {
     title: "আদাবুল মুফরাদ",
     hadith: "সর্বমোট হাদিস ২২৮২",
+    logo: "AM",
   },
   {
     title: "শামায়েলে তিরমিযি",
     hadith: "সর্বমোট হাদিস ৩৮২৭",
+    logo: "ST",
   },
   {
     title: "সহিহ ফাযায়েলে আমল",
     hadith: "সর্বমোট হাদিস ১৭২৯",
+    logo: "FA",
   },
   {
     title: "সহিহ মুসলিম",
     hadith: "সর্বমোট হাদিস ৩২৮৮",
+    logo: "SM",
   },
 ];
 export const hadithData2 = [
@@ -37,41 +45,49 @@ export const hadithData2 = [
     image: "https://example.com/image1.jpg",
     title: "ওহীর সূচনা অধ্যায়",
     hadith: "হাদিসের রেঞ্জ: ১ - ৭",
+    logo: "১",
   },
   {
     image: "https://example.com/image2.jpg",
     title: "ঈমান",
     hadith: "হাদিসের রেঞ্জ: ৮ - ৫৮",
+    logo: "২",
   },
   {
     image: "https://example.com/image3.jpg",
     title: "ইলম",
     hadith: "হাদিসের রেঞ্জ: ৫৯ - ১৩৪",
+    logo: "৩",
   },
   {
     image: "https://example.com/image4.jpg",
     title: "ওজু",
     hadith: "হাদিসের রেঞ্জ: ১৩৫ - ২৪৭",
+    logo: "৪",
   },
   {
     image: "https://example.com/image5.jpg",
     title: "গোসল",
     hadith: "হাদিসের রেঞ্জ: ২৪৮ - ২৯৩",
+    logo: "৫",
   },
   {
     image: "https://example.com/image6.jpg",
     title: "হায়েজ",
     hadith: "হাদিসের রেঞ্জ: ২৯৪ - ৩৪৮",
+    logo: "৬",
   },
   {
     image: "https://example.com/image7.jpg",
     title: "সালাত",
     hadith: "হাদিসের রেঞ্জ: ৩৪৯ - ৫২০",
+    logo: "৭",
   },
   {
     image: "https://example.com/image8.jpg",
     title: "আযান",
     hadith: "হাদিসের রেঞ্জ: ৫২১ - ৬০২",
+    logo: "৮",
   },
 ];
 
