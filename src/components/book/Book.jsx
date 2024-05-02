@@ -5,7 +5,7 @@ import { hadithData, hadithData2 } from "../../../public/data/data";
 import BookCard from "./BookCard";
 const Book = () => {
   return (
-    <div className="bg-white rounded-lg w-[350px] shadow-sm">
+    <section className="bg-white rounded-lg w-[350px] shadow-sm">
       <Tabs>
         <TabList>
           <Tab>বই</Tab>
@@ -69,7 +69,7 @@ const Book = () => {
           </div>
         </TabPanel>
       </Tabs>
-    </div>
+    </section>
   );
 };
 
