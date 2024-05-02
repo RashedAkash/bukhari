@@ -16,11 +16,11 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className="max-h-screen">
           <Navbar />
-          <div className="flex justify-between">
-            <div className="">
+          <div className="grid grid-cols-12 gap-5">
+            <div className="col-span-1">
               <Sidebar />
             </div>
-            <div className="">{children}</div>
+            <div className="col-span-11">{children}</div>
           </div>
         </div>
       </body>

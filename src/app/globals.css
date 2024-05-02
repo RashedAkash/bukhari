@@ -10,3 +10,28 @@
 .pd-10{
 padding:0 40px;
 }
+.react-tabs__tab-list {
+    border-bottom: 1px solid #F2F4F6  !important;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.react-tabs__tab--selected {
+    background: #2b9e76 !important;
+    border: none !important;
+    
+    color: white !important;
+   
+}
+.react-tabs__tab {
+  
+    border-bottom: none;  
+   
+    list-style: none;
+    padding: 15px 70px !important;
+    
+}
+.react-tabs__tab-panel--selected {
+    display: block;
+    padding: 0 20px ;
+}
