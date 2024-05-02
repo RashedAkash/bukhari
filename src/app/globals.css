@@ -42,3 +42,8 @@ padding:0 40px;
     background-color: #F2F4F6;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
+
+::-webkit-scrollbar {
+    width: 4px; /* Width of the entire scrollbar */
+}
+
