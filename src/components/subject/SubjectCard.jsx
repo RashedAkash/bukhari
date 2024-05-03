@@ -86,7 +86,7 @@ const SubjectCard = ({ d }) => {
               সহিহ হাদিস{" "}
             </button>
           </div>
-          <div className="flex flex-grow mt-5 lg:mt-0 items-center gap-10">
+          <div className="flex justify-between mt-5 lg:mt-0 items-center gap-10">
             <Image src="/image/copy.svg" alt="logo" width={24} height={24} />
             <Image
               src="/image/bookmark (1).svg"
